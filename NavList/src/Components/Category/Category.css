@@ -1,0 +1,22 @@
+.categorySec {
+    margin: 0 70px;
+    margin-top: 100px;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 65px;
+}
+
+@media screen and (max-width:342px) {
+    .categorySec {
+        margin: 0px !important;
+    }
+
+    .category {
+        gap: 0px;
+    }
+}

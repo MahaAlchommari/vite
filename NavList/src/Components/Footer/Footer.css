@@ -1,0 +1,86 @@
+footer {
+    width: 100%;
+    height: 344.338px;
+    background: url(../../assets/img/footer-bg.png);
+    background-size: cover;
+    padding: 58px 70px;
+}
+
+.fooerPone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.oneFooter {
+    width: 390.452px;
+}
+
+.fontAw {
+    color: #DF6951;
+    display: flex;
+    gap: 25px;
+}
+
+.lineTwo {
+    margin-top: 50px;
+}
+
+.lol {
+    margin-right: 190px;
+}
+
+
+
+.lineTwo h3 {
+    color: #2F2F2F;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+.lineTwo p {
+    color: #2F2F2F;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.fooertPtwo {
+    padding: 104px 0 51px 0;
+    text-align: center;
+}
+
+@media screen and (max-width:1300px) {
+    /* footer {
+        padding: 0;
+    } */
+
+    .fooerPone {
+        gap: 30px;
+    }
+
+    .lol {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    footer {
+        padding: 50px;
+        text-align: center;
+    }
+
+    .fooerPone {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .fontAw {
+        justify-content: center;
+    }
+}

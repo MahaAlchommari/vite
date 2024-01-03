@@ -1,0 +1,31 @@
+/* .CardFour {
+    width: 140px;
+    height: 94px;
+} */
+
+.CardFour h3 {
+    color: #7D7D7D;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 22px;
+}
+
+.CardFour p {
+    color: #181E4B;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:685px) {
+    .CardFour {
+        /* padding: 20px; */
+    }
+
+    .CardFour p, .CardFour h3 {
+        color: #fff;
+    }
+}

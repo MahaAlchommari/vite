@@ -1,0 +1,73 @@
+.sightseeing {
+    margin: 90px 70px 90px 70px;
+}
+
+.oneLineS {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btnM {
+    width: 169.377px;
+    height: 56.416px;
+    gap: 10.447px;
+    border-radius: 4px;
+    background: #DF6951;
+}
+
+.sightseeing .par5 {
+    width: 550.645px;
+    color: #2F2F2F;
+    text-align: justify;
+    line-height: 29px;
+}
+
+.btnM a {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.right {
+    width: 600.014px;
+}
+
+@media screen and (max-width:685px) {
+    .oneLineS {
+        position: relative;
+        justify-content: center;
+
+    }
+
+    .pO {
+        z-index: 2;
+        background-color: rgba(0, 0, 0, 0.225);
+        padding: 30px;
+    }
+
+    .sightseeing .pO .par5, .titleS {
+        width: auto !important;
+    }
+
+    .sightseeing .pO .par5 {
+        color: #FFF;
+    }
+
+    .right {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .sightseeing {
+        margin: 20px;
+    }
+}

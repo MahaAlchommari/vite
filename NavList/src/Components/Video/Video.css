@@ -1,0 +1,66 @@
+.centeredContent {
+    position: relative;
+}
+
+.videoImg {
+    width: 100%;
+    height: auto;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.center h1 {
+    color: #FFF;
+    font-family: Yesteryear;
+    font-size: 157.426px;
+    font-weight: 400;
+    line-height: 223.678px;
+    margin: 0;
+    z-index: 3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overImage {
+    position: relative;
+    z-index: 5;
+    text-align: center;
+}
+
+@media screen and (max-width:660px) {
+    .center h1 {
+        font-size: 100.426px;
+    }
+
+    .overImage {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .center h1 {
+        font-size: 80.426px;
+    }
+
+    .overImage {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .center h1 {
+        font-size: 50.426px;
+    }
+
+    .overImage {
+        width: 50px;
+    }
+}

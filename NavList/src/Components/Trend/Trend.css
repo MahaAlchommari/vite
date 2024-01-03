@@ -1,0 +1,30 @@
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.per6 {
+    width: 663px;
+    color: #2F2F2F;
+    font-size: 16px;
+    line-height: 31px;
+}
+
+@media screen and (max-width:730px) {
+    .right {
+        width: 100%;
+        height: auto;
+    }
+
+    .per6 {
+        width: auto;
+    }
+}
+
+@media screen and (max-width:685px) {
+    .per6{
+        color: white;
+    }
+}

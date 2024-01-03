@@ -1,0 +1,85 @@
+.cardTow {
+    position: relative;
+    width: 100%;
+    margin: 0 !important;
+}
+
+.cardTow img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cardTow div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.cardTow h1 {
+    margin-bottom: 30px;
+}
+
+.cardTow p {
+    color: #FFEFEC;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+.cardTow h1 {
+    color: #FFF;
+    font-family: Volkhov;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 71.042px;
+}
+
+.cardTow button {
+    width: 183px;
+    height: 58px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    background: none;
+}
+
+@media screen and (max-width:530px) {
+    .cardTow p {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .cardTow h1 {
+        font-size: 30px;
+        margin: 0;
+    }
+
+
+    .cardTow button {
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+
+    }
+
+}
+
+@media screen and (max-width:400px) {
+
+    .cardTow h1 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+
+    .cardTow button {
+        height: 30px;
+    }
+
+}

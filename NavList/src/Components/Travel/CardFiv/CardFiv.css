@@ -1,0 +1,67 @@
+.cardFiv {
+    width: 386px;
+    height: 438px;
+    border-radius: 4px;
+    background: #F5F3F3;
+    text-align: center;
+    padding: 20px;
+}
+
+.cardFiv img {
+    width: 100%;
+    height: auto;
+}
+
+.partTwot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    width: 346px;
+    height: 39px;
+    border-radius: 0px 0px 4px 4px;
+    background: #DF6951;
+    text-align: center !important;
+    flex-wrap: wrap;
+}
+
+.partTwot p {
+    color: #F5F3F3;
+    text-align: center;
+    font-size: 12.974px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.tit {
+    color: #181E4B;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: left;
+    margin: 15px 0 10px 0;
+}
+
+.paragraph {
+    width: 318.503px;
+    height: 45.001px;
+    color: #181E4B;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.lastT {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+@media screen and (max-width:400px) {
+    .cardFiv, .partTwot,.paragraph {
+        width: 100%;
+        height: auto;
+    }
+}
